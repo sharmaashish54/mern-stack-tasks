@@ -1,0 +1,64 @@
+/* /* Selector syntax
+SelectorName {
+    PropertyKey: PropertyValue;
+} */
+
+
+/* element Selector */
+p{
+    color: #613187;
+}
+
+h2{
+    background-color: #d69494;
+    color: #a01616;
+} 
+
+/* id Selector */
+
+#p1id{
+    color: #613187;
+}
+
+#p2id{
+    color: #138b1b;
+}
+
+#p3id{
+    color: #b15d18;
+}
+
+.p1class{
+    background-color: #92c459;
+}
+
+.p2class{
+    background-color: #138b1b;
+}
+
+.p3class{
+    background-color: #b15d18; 
+} 
+
+/* universal selector */
+*{
+    font-family: 'Courier New', Courier, monospace;
+    color: #613187;
+}
+
+/* decendent selector */
+#descendant p {
+    color: #952440;
+    background-color: #2ea13c;
+} */
+
+/* direct child selector */
+#dirsel > p {
+    color: #ebddd9;
+    background-color: #31187c;
+}
+
+p:hover{
+    color: #ebddd9;
+    background-color: #31187c;
+}
